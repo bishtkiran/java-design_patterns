@@ -1,4 +1,4 @@
-package designpatterns.strategypattern.strategy;
+package designpatterns.strategypattern.example1.strategy;
 /*
 Created by Kiran Bisht
 */

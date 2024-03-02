@@ -1,4 +1,4 @@
-package designpatterns.strategypattern;
+package designpatterns.strategypattern.example1;
 
 public class Main {
 

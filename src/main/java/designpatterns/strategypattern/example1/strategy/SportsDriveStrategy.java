@@ -1,6 +1,4 @@
-package designpatterns.strategypattern.strategy;
-
-import designpatterns.strategypattern.strategy.DriveStrategy;
+package designpatterns.strategypattern.example1.strategy;
 
 public class SportsDriveStrategy implements DriveStrategy {
 

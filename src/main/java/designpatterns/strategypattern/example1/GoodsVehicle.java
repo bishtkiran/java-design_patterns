@@ -1,9 +1,8 @@
-package designpatterns.strategypattern;
+package designpatterns.strategypattern.example1;
 
-import designpatterns.strategypattern.strategy.DriveStrategy;
-import designpatterns.strategypattern.strategy.NormalDriveStrategy;
+import designpatterns.strategypattern.example1.strategy.NormalDriveStrategy;
 
-public class GoodsVehicle extends Vehicle{
+public class GoodsVehicle extends Vehicle {
 
     public GoodsVehicle() {
         super(new NormalDriveStrategy(), "GoodsVehicle");

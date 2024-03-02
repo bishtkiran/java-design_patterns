@@ -1,4 +1,6 @@
 package designpatterns.observerpattern.observer;
 
-public interface Observer {
+public interface NotificationAlertObserver {
+
+    void update();
 }
