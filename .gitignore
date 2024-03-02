@@ -1,0 +1,13 @@
+# Gradle files
+.gradle/
+build/
+
+# IDE-specific files (e.g., IntelliJ IDEA)
+.idea/
+
+# Gradle wrapper files
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Miscellaneous
+*.iml
