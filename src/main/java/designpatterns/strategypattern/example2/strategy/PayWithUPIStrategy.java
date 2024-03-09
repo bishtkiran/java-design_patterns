@@ -1,9 +1,0 @@
-package designpatterns.strategypattern.example2.strategy;
-
-public class PayWithUPIStrategy implements PaymentStrategy{
-
-    @Override
-    public void pay(int amount) {
-        System.out.println("Payment of amount " + amount + " done using UPI");
-    }
-}
