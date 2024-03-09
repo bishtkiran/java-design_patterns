@@ -11,17 +11,9 @@ public abstract class StudentBuilder {
     String motherName;
     List<String> subjects;
 
-    public int getRollNumber() {
-        return rollNumber;
-    }
-
     public StudentBuilder setRollNumber(int rollNumber) {
         this.rollNumber = rollNumber;
         return this;
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public StudentBuilder setAge(int age) {
@@ -29,26 +21,14 @@ public abstract class StudentBuilder {
         return this;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public StudentBuilder setName(String name) {
         this.name = name;
         return this;
     }
 
-    public String getFatherName() {
-        return fatherName;
-    }
-
     public StudentBuilder setFatherName(String fatherName) {
         this.fatherName = fatherName;
         return this;
-    }
-
-    public String getMotherName() {
-        return motherName;
     }
 
     public StudentBuilder setMotherName(String motherName) {

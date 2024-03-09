@@ -20,8 +20,6 @@ public class Student {
         this.subjects = builder.subjects;
     }
 
-
-
     @Override
     public String toString() {
         return "Student{" +
