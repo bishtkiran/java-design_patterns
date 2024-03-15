@@ -54,7 +54,6 @@ public class SelectionState implements State {
 
     @Override
     public int getChange(int returnExtraMoney) throws Exception{
-        //actual logic should be to return COINs in the dispense tray, but for simplicity i am just returning the amount to be refunded
         System.out.println("Returned the change in the Coin Dispense Tray: " + returnExtraMoney);
         return returnExtraMoney;
     }
