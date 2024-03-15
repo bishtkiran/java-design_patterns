@@ -30,17 +30,14 @@ public class SelectionState implements State {
 
     @Override
     public void chooseProduct(VendingMachine machine, int codeNumber) throws Exception{
-
-        //1. get item of this codeNumber
+      
         Item item = machine.getInventory().getItem(codeNumber);
-
-        //2. total amount paid by User
+    
         int paidByUser = 0;
         for(Coin coin : machine.getCoinList()){
             paidByUser = paidByUser + coin.value;
         }
-
-        //3. compare product price and amount paid by user
+      
         if(paidByUser < item.getPrice()) {
             System.out.println("Insufficient Amount, Product you selected is for price: " + item.getPrice() + " and you paid: " + paidByUser);
             refundFullMoney(machine);
